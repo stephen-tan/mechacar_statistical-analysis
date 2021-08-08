@@ -40,7 +40,7 @@ description here
 1. **What metric or metrics are you going to test?**</br>
 *answer*
 
-2. **What is the null hypothesis or alternative hypothesis?
+2. **What is the null hypothesis or alternative hypothesis?**</br>
 *answer*
 
 3. **What statistical test would you use to test the hypothesis? And why?**</br>
