@@ -22,9 +22,11 @@ The purpose of this project was to analyze datasets of a MechaCar automobile pro
 summary here
 
 ### Screenshot (Total Summary)
+![Total Summary for Suspension Coils](Resources/d2_total_summary.png)<br/>
 
 
 ### Screenshot (Lot Summary)
+![Lot Summary for Suspension Coils](Resources/d2_lot_summary.png)<br/>
 
 
 ## T-Tests on Suspension Coils
