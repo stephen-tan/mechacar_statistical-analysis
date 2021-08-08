@@ -4,6 +4,10 @@
 The purpose of this project was to analyze datasets of a MechaCar automobile prototype to predict average miles per gallon (MPG), summary statistics of suspension coil pounds per square inch (PSI), perform statistical analyses such as t-tests, and use the data interpret the findings and compare them against vehicles from other manufacturers.<br/>
 
 ## Linear Regression to Predict MPG
+
+![Linear Regression](Resources/d1_lm.png)<br/>
+![Summary Statistics](Resources/d1_summary.png)<br/>
+
 1. **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**</br>
 *answer*
 
