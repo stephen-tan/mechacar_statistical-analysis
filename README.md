@@ -34,9 +34,15 @@ summary here
 summary here
 
 ### Screenshot (Total Summary)
+![T-Test All Lots Suspension Coils](Resources/d3_all_ttest.png)<br/>
 
 
 ### Screenshot (Lot Summary)
+![T-Test Lot 1 Suspension Coils](Resources/d3_lot1_ttest.png)<br/>
+
+![T-Test Lot 2 Suspension Coils](Resources/d3_lot2_ttest.png)<br/>
+
+![T-Test Lot 3 Suspension Coils](Resources/d3_lot3_ttest.png)<br/>
 
 
 ## Study Design: MechaCar vs Competition
