@@ -8,7 +8,7 @@ The purpose of this project was to analyze datasets of a MechaCar automobile pro
 ![Summary Statistics](Resources/d1_summary.png)<br/>
 
 1. **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**</br>
-Vehicle length, vehicle weight, andground clearance were three out of the six total variables that provided a non-random amount of variance because their p-values were all less than 0.05 alpha (threshold) value.
+In the image above, vehicle length, vehicle weight, and ground clearance were three out of the six total variables that provided a non-random amount of variance because their p-values (column Pr(>|t|) were all less than 0.05 alpha (threshold) value.
 
 ![Linear Regression](Resources/d1_lm.png)<br/>
 
