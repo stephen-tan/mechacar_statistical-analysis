@@ -33,8 +33,9 @@ The purpose of this project was to analyze datasets of a MechaCar automobile pro
 
 
 ## T-Tests on Suspension Coils
-Null hypothesis: Manufacturing lot has no effect on MechaCar performance</br>
-Alternative hypothesis: Manufacturing lot affects MechaCar performance</br>
+**Null hypothesis**: Manufacturing lot has no effect on MechaCar suspension coil PSI</br>
+**Alternative hypothesis**: Manufacturing lot affects MechaCar suspension coil PSI</br>
+
 The p-value for all lots was found to be 0.683, which means that we accept the null hypothesis and that there is no effect of manufacturing lot on MechaCar performance. The population mean of 1498.06 PSI is statistically similar to that of the other manufacturing lots. For lots 1 and 2, the p-values are both < 0.05, which means that we reject the null hypothesis and that the PSI found in lots 1 and 2 are statistically different than that of lot 3, which had a p-value > 0.05.
 
 ### Total Summary
