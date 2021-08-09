@@ -5,11 +5,12 @@ The purpose of this project was to analyze datasets of a MechaCar automobile pro
 
 ## Linear Regression to Predict MPG
 
-![Linear Regression](Resources/d1_lm.png)<br/>
 ![Summary Statistics](Resources/d1_summary.png)<br/>
 
 1. **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**</br>
 *answer*
+
+![Linear Regression](Resources/d1_lm.png)<br/>
 
 2. **Is the slope of the linear model considered to be zero? Why or why not?**</br>
 *answer*
