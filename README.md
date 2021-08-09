@@ -54,18 +54,4 @@ Lot 3</br>
 
 
 ## Study Design: MechaCar vs Competition
-### Study Description
-description here
-
-1. **What metric or metrics are you going to test?**</br>
-*answer*
-
-2. **What is the null hypothesis or alternative hypothesis?**</br>
-*answer*
-
-3. **What statistical test would you use to test the hypothesis? And why?**</br>
-*answer*
-
-4. **What data is needed to run the statistical test?**</br>
-*answer*
-
+Horsepower (hp) and safety rating are two important metrics that folks consider when purchasing a new car. The null hypothesis would be that the MechaCar prototype is not significantly different (performance-wise) from cars of another manufacturer. In order to test the null hypothesis, one could run ANOVA tests to see how much variance there is between each variable. In order to run the statitical analysis, one would first need to gather information from other car manufacturers, perhaps by fetching vehicle data APIs from different car manufacturers or by performing a web scrape.
