@@ -12,3 +12,38 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 
 # perform summary
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data= mechacar_data))
+
+# deliverable 2
+# -------------------
+
+# import and read file as dataframe
+suspension_data <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors=F)
+
+# total summary
+total_summary <- suspension_data %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI),.groups='keep') 
+
+# lot summary 
+lot_summary<- suspension_data %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI),.groups='keep')
+
+# deliverable 3
+# -------------------
+
+# randomly sample 75 out of the 150 data points
+suspension_data_sample <- suspension_data %>% sample_n(50)
+
+# compare the sample of all lots against the population
+t.test(suspension_data_sample$PSI,mu=mean(suspension_data$PSI))
+
+# for each of the 3 lots, sample 25 data points and compare against the population
+
+# lot 1
+suspension_lot1_sample <- suspension_data %>% subset(Manufacturing_Lot=='Lot1') %>% sample_n(25)
+t.test(suspension_lot1_sample$PSI,mu=mean(suspension_data$PSI))
+
+# lot 2
+suspension_lot2_sample <- suspension_data %>% subset(Manufacturing_Lot=='Lot2') %>% sample_n(25)
+t.test(suspension_lot2_sample$PSI,mu=mean(suspension_data$PSI))
+
+# lot 3
+suspension_lot3_sample <- suspension_data %>% subset(Manufacturing_Lot=='Lot3') %>% sample_n(25)
+t.test(suspension_lot3_sample$PSI,mu=mean(suspension_data$PSI))
