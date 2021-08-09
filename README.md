@@ -5,8 +5,12 @@ The purpose of this project was to analyze datasets of a MechaCar automobile pro
 
 ## Linear Regression to Predict MPG
 
-![Summary Statistics](Resources/d1_summary.png)<br/>
+### Linear Model
 ![Linear Regression](Resources/d1_lm.png)<br/>
+
+### Summary Statistics
+![Summary Statistics](Resources/d1_summary.png)<br/>
+
 **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**</br>
 *In the image above, vehicle length, vehicle weight, and ground clearance were three out of the six total variables that provided a non-random amount of variance because their p-values (column Pr(>|t|) were all less than 0.05 alpha (threshold) value.*
 
