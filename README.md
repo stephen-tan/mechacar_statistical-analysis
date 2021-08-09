@@ -6,17 +6,15 @@ The purpose of this project was to analyze datasets of a MechaCar automobile pro
 ## Linear Regression to Predict MPG
 
 ![Summary Statistics](Resources/d1_summary.png)<br/>
-
-1. **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**</br>
+![Linear Regression](Resources/d1_lm.png)<br/>
+**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**</br>
 In the image above, vehicle length, vehicle weight, and ground clearance were three out of the six total variables that provided a non-random amount of variance because their p-values (column Pr(>|t|) were all less than 0.05 alpha (threshold) value.
 
-![Linear Regression](Resources/d1_lm.png)<br/>
+**Is the slope of the linear model considered to be zero? Why or why not?**</br>
+In the image above, the slope is non-zero because all of the coefficients are also non-zero, which means that there is a correlation that changes in MPG can be attributed to changes in the variables in the given dataset.
 
-2. **Is the slope of the linear model considered to be zero? Why or why not?**</br>
-*answer*
-
-3. **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**</br>
-*answer*
+**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**</br>
+With an R-squared value of 0.7149, roughly 71% of the data fits the linear model, suggesting that the model is a good fit for effectively predicting MPG of the MechaCar prototypes.
 
 ## Summary Statistics on Suspension Coils
 ### Summary
