@@ -8,7 +8,7 @@ The purpose of this project was to analyze datasets of a MechaCar automobile pro
 ![Summary Statistics](Resources/d1_summary.png)<br/>
 
 1. **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**</br>
-*answer*
+Vehicle length, vehicle weight, andground clearance were three out of the six total variables that provided a non-random amount of variance because their p-values were all less than 0.05 alpha (threshold) value.
 
 ![Linear Regression](Resources/d1_lm.png)<br/>
 
@@ -39,13 +39,13 @@ summary here
 
 ### Lot Summaries
 
-Lot 1
+Lot 1</br>
 ![T-Test Lot 1 Suspension Coils](Resources/d3_lot1_ttest.png)<br/>
 
-Lot 2
+Lot 2</br>
 ![T-Test Lot 2 Suspension Coils](Resources/d3_lot2_ttest.png)<br/>
 
-Lot 3
+Lot 3</br>
 ![T-Test Lot 3 Suspension Coils](Resources/d3_lot3_ttest.png)<br/>
 
 
