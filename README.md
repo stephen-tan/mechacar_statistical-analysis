@@ -1,5 +1,6 @@
 # MechaCar Statistical Analysis
 
+
 ## Project Overview
 The purpose of this project was to analyze datasets of a MechaCar automobile prototype to predict average miles per gallon (MPG), summary statistics of suspension coil pounds per square inch (PSI), perform statistical analyses such as t-tests, and use the data interpret the findings and compare them against vehicles from other manufacturers.<br/>
 
@@ -22,7 +23,7 @@ The purpose of this project was to analyze datasets of a MechaCar automobile pro
 
 ## Summary Statistics on Suspension Coils
 **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**</br>
-*Variance of the total summary (shown below) was 62.29 psi and for each respective lot (in order of lots 1, 2, and 3, respectively) were 0.98, 7.47, and 170.29 psi. As a result, both lots 1 and 2 were within specifications but not lot 3.
+*Variance of the total summary (shown below) was 62.29 PSI and for each respective lot (in order of lots 1, 2, and 3, respectively) were 0.98, 7.47, and 170.29 PSI. As a result, both lots 1 and 2 were within specifications but not lot 3.*
 
 ### Total Summary
 ![Total Summary for Suspension Coils](Resources/d2_total_summary.png)<br/>
@@ -32,8 +33,9 @@ The purpose of this project was to analyze datasets of a MechaCar automobile pro
 
 
 ## T-Tests on Suspension Coils
-### Summary
-summary here
+Null hypothesis: Manufacturing lot has no effect on MechaCar performance</br>
+Alternative hypothesis: Manufacturing lot affects MechaCar performance</br>
+The p-value for all lots was found to be 0.683, which means that we accept the null hypothesis and that there is no effect of manufacturing lot on MechaCar performance. The population mean of 1498.06 PSI is statistically similar to that of the other manufacturing lots. For lots 1 and 2, the p-values are both < 0.05, which means that we reject the null hypothesis and that the PSI found in lots 1 and 2 are statistically different than that of lot 3, which had a p-value > 0.05.
 
 ### Total Summary
 ![T-Test All Lots Suspension Coils](Resources/d3_all_ttest.png)<br/>
